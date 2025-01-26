@@ -13,4 +13,5 @@ require('packer').startup(function()
 	use 'nvim-tree/nvim-web-devicons'
 	use 'nvim-lualine/lualine.nvim'
 	use 'ray-x/lsp_signature.nvim'
+	use 'goolord/alpha-nvim'
 end)

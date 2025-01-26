@@ -1,6 +1,5 @@
 -- Set background to dark to match the Alacritty dark theme
 vim.o.background = "dark"
-
 -- Enable relative numbers and cursor line
 vim.wo.relativenumber = true
 vim.wo.number = true
@@ -27,6 +26,7 @@ require('user.colorscheme')
 require('user.keymaps')
 require('user.lualine')
 require('user.hover')
+require('user.alpha')
 
 -- Set transparent background for various UI elements
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")  -- Transparent background for normal text
