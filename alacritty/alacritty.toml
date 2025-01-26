@@ -1,0 +1,44 @@
+[window]
+opacity = 0.7
+blur = true
+padding = { x = 4, y = 4 }
+dynamic_padding = true
+
+[colors]
+  [colors.primary]
+    background = "0x000000"  # Jet black background
+    foreground = "0xFFFFFF"  # Bright white text
+
+  [colors.normal]
+    black = "0x1C1C1C"       # Rich black
+    red = "0xFF0000"         # Bright red
+    green = "0x33FF33"       # Bright green
+    yellow = "0xFFFF33"      # Bright yellow
+    blue = "0x33CCFF"        # Bright blue
+    magenta = "0xFF33FF"     # Bright magenta (pink)
+    cyan = "0x33FFFF"        # Bright cyan
+    white = "0xFFFFFF"       # Pure white
+
+  [colors.bright]
+    black = "0x555555"       # Lighter black
+    red = "0xFF0000"         # Vivid red
+    green = "0x66FF66"       # Fluorescent green
+    yellow = "0xFFFF66"      # Eye-catching yellow
+    blue = "0x66CCFF"        # Bright blue
+    magenta = "0xFF66FF"     # Bright pink
+    cyan = "0x66FFFF"        # Electric cyan
+    white = "0xFFFFFF"       # Brightest white
+
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+bold = { family = "FiraCode Nerd Font", style = "Bold" }
+italic = { family = "FiraCode Nerd Font", style = "Italic" }
+size = 12.0
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 750
+
+[mouse]
+hide_when_typing = true
