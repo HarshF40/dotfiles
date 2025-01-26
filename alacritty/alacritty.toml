@@ -15,7 +15,7 @@ dynamic_padding = true
     green = "0x33FF33"       # Bright green
     yellow = "0xFFFF33"      # Bright yellow
     blue = "0x33CCFF"        # Bright blue
-    magenta = "0xFF33FF"     # Bright magenta (pink)
+    magenta = "0xFF33FF"     # Bright pink
     cyan = "0x33FFFF"        # Bright cyan
     white = "0xFFFFFF"       # Pure white
 
