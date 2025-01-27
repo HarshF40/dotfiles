@@ -1,0 +1,13 @@
+width=35%
+height=30%
+lines=7
+
+hide_scroll = true
+allow_images = true
+image_size = 25
+prompt=
+normal_window = false
+
+matching=fuzzy
+insensitive=true
+columns=2
