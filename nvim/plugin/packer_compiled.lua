@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/harsh/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/home/harsh/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["lsp_signature.nvim"] = {
     loaded = true,
     path = "/home/harsh/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",

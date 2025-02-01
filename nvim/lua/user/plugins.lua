@@ -15,4 +15,5 @@ require('packer').startup(function()
 	use 'ray-x/lsp_signature.nvim'
 	use 'goolord/alpha-nvim'
 	use 'windwp/nvim-ts-autotag'
+	use 'mattn/emmet-vim'
 end)

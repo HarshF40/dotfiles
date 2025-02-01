@@ -28,6 +28,7 @@ require('user.hover')
 require('user.alpha')
 require('user.autopairs')
 require('user.autotag')
+require('user.emmet')
 
 -- Set transparent background for various UI elements
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")  -- Transparent background for normal text
