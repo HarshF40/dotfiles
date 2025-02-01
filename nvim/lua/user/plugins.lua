@@ -14,4 +14,5 @@ require('packer').startup(function()
 	use 'nvim-lualine/lualine.nvim'
 	use 'ray-x/lsp_signature.nvim'
 	use 'goolord/alpha-nvim'
+	use 'windwp/nvim-ts-autotag'
 end)

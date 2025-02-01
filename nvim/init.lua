@@ -20,13 +20,14 @@ require('user.lsp')
 require('user.lsp_signature')
 require('user.cmp')
 require('user.treesitter')
-require('user.autopairs')
 require('user.telescope')
 require('user.colorscheme')
 require('user.keymaps')
 require('user.lualine')
 require('user.hover')
 require('user.alpha')
+require('user.autopairs')
+require('user.autotag')
 
 -- Set transparent background for various UI elements
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")  -- Transparent background for normal text
