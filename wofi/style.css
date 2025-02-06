@@ -1,9 +1,9 @@
 window {
     font-size: 15px;
     font-family: "FiraCode Nerd Font";
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    border: 3px solid rgba(255, 192, 203, 0.8); /* Light pink border with transparency */
-    border-radius: 0px; /* Curved edges for the window */
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0.001rem solid rgba(4, 192, 244, 1.0);
+    border-radius: 0px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     backdrop-filter: blur(10px); /* Blur effect for the background */
     overflow: hidden; /* Ensure content respects rounded corners */
@@ -11,36 +11,36 @@ window {
 
 #outer-box {
     background-color: transparent; /* Ensure the outer box doesn't interfere */
-    border-radius: 20px; /* Curved edges for outer box */
+    border-radius: 5px; /* Curved edges for outer box */
     padding: 15px; /* Add padding for spacing */
     overflow: hidden; /* Ensure child elements respect rounded corners */
 }
 
 #entry {
-    margin: 5px 5px;
-    padding-left: 30px;
+    margin: 8px 8px;
+    padding-left: 50px;
     border-radius: 15px; /* Curved edges for entries */
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
     overflow: hidden; /* Ensure content respects rounded corners */
 }
 
 #entry:selected {
-    background: rgba(255,192,203,1); /* Gradient background */
-    color: #333333; /* Dark text for contrast */
+    background: rgba(255,255,255,0.7); /* Gradient background */
+    color: rgb(255, 255, 255); /* Dark text for contrast */
     border-radius: 12px; /* Curved edges for selected entry */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for selected entry */
 }
 
 #text:selected {
-    color: #333333; /* Dark text for contrast */
+    color: #ffffff; /* Dark text for contrast */
 }
 
 #input {
-    background-color: rgba(0,0,0,0.3); /* Light gray background with transparency */
+    background-color: rgba(4,190,235,0.5); /* Light gray background with transparency */
     border-radius: 12px; /* Curved edges for input */
     font-size: 14px;
     font-weight: 500;
-    color: grey; /* Gray text */
+    color: white; /* Gray text */
     padding: 4px; /* Increased padding for better spacing */
     box-shadow: none;
     border: none;
@@ -49,8 +49,8 @@ window {
 }
 
 #input:focus {
-    background-color: rgba(0,0,0,0.5); /* Slightly darker background on focus */
-    color: rgb(200, 200, 200); /* Light gray text on focus */
+    background-color: rgba(4,190,255,0.5); /* Slightly darker background on focus */
+    color: rgb(255, 255, 255); /* Light gray text on focus */
 }
 
 #img {

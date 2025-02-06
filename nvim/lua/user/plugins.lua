@@ -15,5 +15,9 @@ require('packer').startup(function()
 	use 'ray-x/lsp_signature.nvim'
 	use 'goolord/alpha-nvim'
 	use 'windwp/nvim-ts-autotag'
-	use 'mattn/emmet-vim'
+	use 'williamboman/mason.nvim'
+	use 'williamboman/mason-lspconfig.nvim'
+	use 'L3MON4D3/LuaSnip'
+	use 'nvim-flutter/flutter-tools.nvim'
+	use 'mfussenegger/nvim-dap'
 end)
