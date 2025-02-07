@@ -1,6 +1,0 @@
-2025/02/03-23:10:25.312 dc909 Creating DB /home/harsh/.config/Postman/Partitions/092d2e2b-c18d-4f86-bb29-b78654ebcc0b/IndexedDB/file__0.indexeddb.leveldb since it was missing.
-2025/02/03-23:10:25.316 dc909 Reusing MANIFEST /home/harsh/.config/Postman/Partitions/092d2e2b-c18d-4f86-bb29-b78654ebcc0b/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2025/02/03-23:10:25.321 dc91c Level-0 table #5: started
-2025/02/03-23:10:25.322 dc91c Level-0 table #5: 494 bytes OK
-2025/02/03-23:10:25.324 dc91c Delete type=0 #3
-2025/02/03-23:10:25.324 dc909 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
