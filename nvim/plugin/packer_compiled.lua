@@ -173,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/harsh/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
     url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
+  ["vim-prisma"] = {
+    loaded = true,
+    path = "/home/harsh/.local/share/nvim/site/pack/packer/start/vim-prisma",
+    url = "https://github.com/prisma/vim-prisma"
   }
 }
 

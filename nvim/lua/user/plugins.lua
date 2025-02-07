@@ -21,4 +21,5 @@ require('packer').startup(function()
 	use 'nvim-flutter/flutter-tools.nvim'
 	use 'mfussenegger/nvim-dap'
 	use 'nvim-tree/nvim-tree.lua'
+	use 'prisma/vim-prisma'
 end)
