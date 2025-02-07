@@ -1,4 +1,7 @@
+autostart/
 baloofilerc
+baloofilerc
+flutter/
 bluedevilglobalrc
 BraveSoftware/
 dconf/
@@ -27,6 +30,9 @@ kwalletrc
 kwinoutputconfig.json
 kwinrc
 libaccounts-glib/
+menus/
+omf/
+QtProject.conf
 mimeapps.list
 plasma-localerc
 plasma-org.kde.plasma.desktop-appletsrc
@@ -45,3 +51,4 @@ waypaper/
 xsettingsd/
 yay/
 Postman/
+vlc/

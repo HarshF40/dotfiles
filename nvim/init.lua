@@ -21,6 +21,7 @@ require('user.autopairs')
 require('user.autotag')
 require('user.htmlbp')
 require('user.flutter_tools')
+require('user.nvim-tree')
 
 -- Set transparent background for various UI elements
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")  -- Transparent background for normal text
